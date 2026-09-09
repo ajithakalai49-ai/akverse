@@ -1,14 +1,12 @@
-AK VERSE – SIMPLE WEBSITE
+AK VERSE - UPDATED WEBSITE
 
 Files:
-- index.html  : website content
-- style.css   : website design
+- index.html
+- style.css
+- assets/ak-logo.png
+- assets/ak-background.png
 
-To preview:
-1. Keep index.html and style.css in the same folder.
-2. Double-click index.html to open it in a browser.
+Upload all files/folders to the root of the GitHub repository (akverse).
+Keep the assets folder and the two image files inside it.
 
-To publish for free:
-Use GitHub Pages or Cloudflare Pages, then connect your GoDaddy domain akverse.co.in.
-
-Note: The email address in index.html is a placeholder (hello@akverse.co.in). Change it when you have an email address ready.
+The site is designed around the blue/cyan/teal palette of the supplied logo and background.

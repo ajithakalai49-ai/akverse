@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AK Verse</title>
-  <meta name="description" content="AK Verse – Explore, learn and create.">
+  <title>AK Verse | Explore. Learn. Create.</title>
+  <meta name="description" content="AK Verse – a simple space for knowledge, learning, creativity and meaningful ideas.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="container nav">
-      <a class="logo" href="#home">AK <span>VERSE</span></a>
-      <nav>
+      <a class="brand" href="#home" aria-label="AK Verse home">
+        <img src="assets/ak-logo.png" alt="AK Verse logo">
+        <span>AK <strong>VERSE</strong></span>
+      </a>
+      <nav aria-label="Main navigation">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#explore">Explore</a>
@@ -22,47 +25,69 @@
 
   <main>
     <section id="home" class="hero">
+      <div class="hero-overlay"></div>
       <div class="container hero-content">
-        <p class="eyebrow">WELCOME TO</p>
-        <h1>AK Verse</h1>
-        <p class="tagline">Explore. Learn. Create.</p>
+        <p class="eyebrow">WELCOME TO AK VERSE</p>
+        <h1>Explore.<br><span>Learn. Create.</span></h1>
         <p class="intro">A simple space for ideas, knowledge, creativity and meaningful learning.</p>
-        <a class="button" href="#explore">Explore AK Verse</a>
+        <a class="button" href="#explore">Explore AK Verse <span>→</span></a>
       </div>
+      <div class="hero-glow" aria-hidden="true"></div>
     </section>
 
-    <section id="about" class="section">
+    <section id="about" class="section about">
       <div class="container narrow">
-        <p class="eyebrow">ABOUT</p>
-        <h2>A space for curiosity</h2>
-        <p>AK Verse brings together useful knowledge, creative ideas and learning resources in one simple place. The goal is to make learning interesting, practical and accessible.</p>
+        <p class="eyebrow">ABOUT AK VERSE</p>
+        <h2>A space for <span>curiosity.</span></h2>
+        <p>AK Verse brings together useful knowledge, creative ideas and learning resources in one simple place. The goal is to make learning interesting, practical and accessible — encouraging curiosity beyond the classroom.</p>
       </div>
     </section>
 
-    <section id="explore" class="section light">
+    <section id="explore" class="section explore">
       <div class="container">
-        <p class="eyebrow">EXPLORE</p>
-        <h2>Discover something new</h2>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">EXPLORE</p>
+            <h2>Discover something <span>new.</span></h2>
+          </div>
+          <p class="heading-note">Ideas to learn, think and create.</p>
+        </div>
+
         <div class="cards">
-          <article><h3>Knowledge</h3><p>Interesting facts, ideas and useful information.</p></article>
-          <article><h3>Learning</h3><p>Simple resources to learn beyond the classroom.</p></article>
-          <article><h3>Creativity</h3><p>Ideas and inspiration to think, make and create.</p></article>
+          <article class="card">
+            <div class="card-number">01</div>
+            <h3>Knowledge</h3>
+            <p>Interesting facts, ideas and useful information to expand your understanding of the world.</p>
+          </article>
+          <article class="card">
+            <div class="card-number">02</div>
+            <h3>Learning</h3>
+            <p>Simple resources and practical topics to support learning beyond the classroom.</p>
+          </article>
+          <article class="card">
+            <div class="card-number">03</div>
+            <h3>Creativity</h3>
+            <p>Ideas and inspiration to think differently, make things and express your imagination.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section contact-section">
       <div class="container narrow contact">
         <p class="eyebrow">CONTACT</p>
-        <h2>Let's connect</h2>
-        <p>More content and contact details can be added here as AK Verse grows.</p>
-        <a class="button" href="mailto:hello@akverse.co.in">Email AK Verse</a>
+        <h2>Let's <span>connect.</span></h2>
+        <p>More content and contact details can be added as AK Verse grows.</p>
+        <a class="button" href="mailto:hello@akverse.co.in">Email AK Verse <span>→</span></a>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container">© 2026 AK Verse. All rights reserved.</div>
+    <div class="container footer-inner">
+      <div class="footer-brand">AK <span>VERSE</span></div>
+      <div>© 2026 AK Verse. All rights reserved.</div>
+    </div>
   </footer>
 </body>
 </html>
