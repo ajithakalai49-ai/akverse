@@ -2,3 +2,35 @@ backend:
   name: github
   repo: ajithakalai49-ai/akverse
   branch: main
+
+media_folder: /assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: home
+        label: Home Page
+        file: content/home.yml
+        format: yaml
+        fields:
+          - name: welcome_title
+            label: Welcome Title
+            widget: string
+
+          - name: welcome_description
+            label: Welcome Description
+            widget: text
+
+          - name: hero_image
+            label: Hero Image
+            widget: image
+
+          - name: about_title
+            label: About Title
+            widget: string
+
+          - name: about_description
+            label: About Description
+            widget: richtext
