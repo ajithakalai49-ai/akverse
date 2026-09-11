@@ -1,28 +1,21 @@
-welcome_title: "Welcome to AK Verse"
-
-welcome_description: "Discover knowledge beyond academics—practical insights, essential awareness, and skills for the world we live in."
-
-hero_image: ""
-
-about_title: "About AK Verse"
-
-about_description: "AK Verse is a platform for discovering practical knowledge beyond academics—covering finance, law, sports, careers, social awareness, and essential skills that empower you to navigate life with confidence."
-
+welcome_title: Welcome to AK Verse
+welcome_description: Discover knowledge beyond academics—practical insights, essential awareness, and skills for the world we live in...
+hero_image: ''
+about_title: About AK Verse
+about_description: AK Verse is a platform for discovering practical knowledge beyond academics—covering finance, law, sports, careers, social awareness, and essential skills that empower you to navigate life with confidence.
 sections:
-  - title: "Knowledge"
-    description: "Explore knowledge that helps you understand the world beyond academic subjects."
-    image: ""
-    button_text: "Explore Knowledge"
-    button_link: "#"
-
-  - title: "Learning"
-    description: "Discover practical learning that can be applied to everyday life."
-    image: ""
-    button_text: "Explore Learning"
-    button_link: "#"
-
-  - title: "Creativity"
-    description: "Develop creativity, ideas, and abilities that go beyond traditional learning."
-    image: ""
-    button_text: "Explore Creativity"
-    button_link: "#"
+  - title: Knowledge
+    description: Explore knowledge that helps you understand the world beyond academic subjects.
+    image: ''
+    button_text: Explore Knowledge
+    button_link: '#'
+  - title: Learning
+    description: Discover practical learning that can be applied to everyday life.
+    image: ''
+    button_text: Explore Learning
+    button_link: '#'
+  - title: Creativity
+    description: Develop creativity, ideas, and abilities that go beyond traditional learning.
+    image: ''
+    button_text: Explore Creativity
+    button_link: '#'
