@@ -2,7 +2,12 @@ welcome_title: Welcome to AK Verse
 welcome_description: Where emotional discipline and practical intelligence help you make better decisions and navigate life with confidence.
 hero_image: ''
 about_title: About AK Verse
-about_description: AK Verse is a platform for discovering practical knowledge beyond academics—covering finance, law, sports, careers, social awareness, and essential skills that empower you to navigate life with confidence.
+about_description: |-
+  ### A Space to **Learn What Matters Beyond Academics**
+
+  AK Verse is a learning platform that explores the knowledge, awareness, and skills often overlooked in conventional education – covering finance, law, sports, careers, social awareness, and essential skills that empower you to navigate life with confidence.
+
+  Our goal is to encourage curiosity, expand perspectives, and help individuals become more informed, capable, and confident in their everyday decisions.![emotional discipline, practical intelligence](/assets/uploads/ChatGPT%20Image%20Sep%2011,%202026,%2005_52_25%20PM.png)
 sections:
   - title: Knowledge
     description: Explore knowledge that helps you understand the world beyond academic subjects.
