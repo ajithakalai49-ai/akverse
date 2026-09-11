@@ -203,7 +203,7 @@
 
       try {
 
-        const response = await fetch("content/home.yml");
+        const response = await fetch("content/home.yml?v=" + Date.now());
 
         if (!response.ok) {
           throw new Error("Could not load CMS content.");
@@ -218,9 +218,14 @@
            WELCOME
         ------------------------- */
 
-        if (data.welcome_description) {
-          document.getElementById("welcome-description").textContent =
-            data.welcome_description;
+       if (data.welcome_title) {
+  document.querySelector(".hero .eyebrow").textContent =
+    data.welcome_title;
+}
+
+if (data.welcome_description) {
+  document.getElementById("welcome-description").textContent =
+    data.welcome_description;
         }
 
 
