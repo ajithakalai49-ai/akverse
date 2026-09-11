@@ -14,6 +14,7 @@ collections:
         label: Home Page
         file: content/home.yml
         format: yaml
+
         fields:
           - name: welcome_title
             label: Welcome Title
@@ -26,6 +27,7 @@ collections:
           - name: hero_image
             label: Hero Image
             widget: image
+            required: false
 
           - name: about_title
             label: About Title
@@ -34,3 +36,31 @@ collections:
           - name: about_description
             label: About Description
             widget: richtext
+
+          - name: sections
+            label: Website Sections
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - name: title
+                label: Section Title
+                widget: string
+
+              - name: description
+                label: Section Description
+                widget: richtext
+
+              - name: image
+                label: Section Image
+                widget: image
+                required: false
+
+              - name: button_text
+                label: Button Text
+                widget: string
+                required: false
+
+              - name: button_link
+                label: Button Link
+                widget: string
+                required: false
